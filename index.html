@@ -127,8 +127,8 @@ a{color:var(--accent)}
 <p><strong>Four ticks played. The clock is stopped at halt 001</strong> - a severity halt of 14 of 36, the council&#x27;s answer to the Watch&#x27;s petition. See <code>state/halt-001.md</code>.</p>
 <p>The council has set the three rates, heard two petitions, audited its own Watch and found nothing, and traced the jewellery from a dead river crewman to a Galician factor&#x27;s mark paid on a military calendar, to a stretch of north bank a day upriver, to a man whose face they have twice over and who knows he is being followed.</p>
 <p>Behind the Watch&#x27;s petition, <strong>five more are assembling</strong>, none of them authored.</p>
-<p><strong>Mechanics written:</strong> severity and the halt budget, the economy and the toll response curve, petitions, investigation threads, tenure and the ash clock, leakage, upkeep, seasonality, windfalls, the standings ledger, <strong>party combat</strong> and <strong>mass combat</strong>. All of them in <code>rules/</code>.</p>
-<p><strong>Open:</strong> <strong>the chase</strong>, parked until a chase happens. <strong>Robbery</strong>, which keeps its own rules for <em>when</em> it fires and borrows combat for the rest. Nothing is blocking.</p>
+<p><strong>Mechanics written:</strong> severity and the halt budget, the economy and the toll response curve, petitions, investigation threads, tenure and the ash clock, leakage, upkeep, seasonality, windfalls, the standings ledger, party combat, mass combat and <strong>robbery</strong>. All of them in <code>rules/</code>.</p>
+<p><strong>Open:</strong> <strong>the chase</strong>, parked until a chase actually happens - it wants a map, and inventing the map first is how you build a mechanic nothing fits. Nothing is blocking.</p>
 <p>The action budget (3 per councillor per tick), the severity threshold (14 of 36), the investigation difficulty anchors and the windfall rate are calibration targets, tuned from play in <code>infra/calibration-log.md</code>.</p><div class="foot">README.md</div></article><article id="artifacts-bill-of-rates-year-0-md" class="hide"><div class="crumb">artifacts</div><h1>Bill of Rates</h1>
 <p><em>Posted at the customs house, the Bridge gate, the Hithe and the guildhall. Read aloud at each, by the Watch, on the day of posting.</em></p>
 <hr>
@@ -792,7 +792,8 @@ a{color:var(--accent)}
 <p>A strike by a collector is the most expensive thing a faction can do to this council without breaking a law, and it is available to any of them.</p>
 <h2>Robbery</h2>
 <p>External, visible, episodic - a tax-cart taken on the road. Not a standing problem: a roads-and-patrols problem, and the first thing that gives the Watch something to do besides be unpaid.</p>
-<p><strong>Deferred to the raids-and-physical-action mechanic</strong>, which it shares rules with. The DM has asked for it <strong>before tick 5</strong>.</p>
+<p><strong>Built - see <code>robbery.md</code></strong>, and delivered before tick 5 as the DM asked.</p>
+<p>Two rolls. An <strong>attempt</strong>, keyed to darkness, bad roads and thin patrols, with nothing in it about wages or morale - robbers read the street, not the payroll. And an <strong>interception</strong>, keyed to the Watch&#x27;s standing, because what the Watch thinks of the council decides only whether the men who find it wade in.</p>
 <h2>The shape of it</h2>
 <p><strong>The skim is a mystery. The strike is a crisis. The robbery is an adventure.</strong> Three different kinds of week out of one leak.</p><div class="foot">rules/leakage.md</div></article><article id="rules-mass-combat-md" class="hide"><div class="crumb">rules</div><h1>Mass Combat</h1>
 <p><strong>Armed men against armed men</strong>, normally with a councillor present to direct them. Too many people to simulate one at a time.</p>
@@ -1307,7 +1308,8 @@ enemy:  d10 + their quality</code></pre>
 <p><strong>Below 25:</strong> the channel begins to change rather than merely fill. Some lost draught is permanent and no dredging restores it.</p>
 <h3>Quays, bridge, roads, lamps - 900G</h3>
 <p>Dark streets, bad roads, a bridge that closes to waggons.</p>
-<p><strong>This line feeds the chance of robbery.</strong> Money moving through a city with unlit wards and broken roads is money moving slowly in the dark. The rules for that sit with raids and physical action; this is the dial that drives them.</p>
+<p><strong>This line feeds the chance of robbery</strong> - see <code>robbery.md</code>, where it is the largest term in the attempt roll and the one the council can actually act on. Money moving through a city with unlit wards and broken roads is money moving slowly in the dark.</p>
+<p>Below 50 it adds to the robbery chance at half a point per point lost; above 50 it subtracts. <strong>At 70 the city is effectively safe. At 25 it is not.</strong></p>
 <p><strong>Below 25:</strong> something falls down that is not rebuilt in this campaign.</p>
 <h3>Relief, fire, contingency - 400G</h3>
 <p>The first thing anyone proposes cutting, the smallest line on the page, and the only one with no warning signs at all.</p>
